@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WG-Putzplan Kalenderübersicht</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <h1>WG-Putzplan Kalenderübersicht</h1>
+  </header>
+
+  <main>
+    <div class="calendar-overview">    
+
+    
+    <div class="calendar-tile past">
+        <span class="date">Sonntag</span>
+        <span class="date">28.09.2025</span>
+        <span class="status">&#10004;</span> 
+        <span class="member">Iosif</span>
+      </div>
+      
+      <div class="calendar-tile past">
+        <span class="date">Sonntag</span>
+        <span class="date">05.10.2025</span>
+        <span class="status">&#10004;</span> 
+        <span class="member">Vahid</span>
+      </div>
+      
+      <div class="calendar-tile past">
+        <span class="date">Sonntag</span>
+        <span class="date">12.10.2025</span>
+        <span class="status">&#10004;</span> 
+        <span class="member">Antonella</span>
+      </div>
+      
+      <div class="calendar-tile upcoming">
+        <h3>nächster Putztermin</h3>
+        <span class="date">Sonntag</span>
+        <span class="date">19.10.2025</span>
+        <!--span class="status">&#10004;</span--> 
+        <span class="member">Iosif</span>
+      </div>
+      
+      <div class="calendar-tile future">
+        <h3>nächster Putztermin</h3>
+        <span class="date">Sonntag</span>
+        <span class="date">26.10.2025</span>
+        <!--span class="status">&#10004;</span--> 
+        <span class="member">Vahid</span>
+      </div>
+      
+      <div class="calendar-tile future">
+        <h3>nächster Putztermin</h3>
+        <span class="date">Sonntag</span>
+        <span class="date">02.11.2025</span>
+        <!--span class="status">&#10004;</span--> 
+        <span class="member">Antonella</span>
+      </div>
+    </div>
+    
+    <!-- Reinigungsaufgaben Checkliste -->
+    <section class="cleaning-tasks">
+      <h2>Reinigungsaufgaben:</h2>
+
+      <div class="task-category">
+        <h3>Küche:</h3>
+        <ul>
+          <li>
+            <input type="checkbox" id="kitchen-task-1">
+            <label for="kitchen-task-1">Arbeitsflächen abwischen</label>
+          </li>
+          <li>
+            <input type="checkbox" id="kitchen-task-2">
+            <label for="kitchen-task-2">Staubsaugen</label>
+          </li>
+          <li>
+            <input type="checkbox" id="kitchen-task-3">
+            <label for="kitchen-task-3">Müll rausbringen</label>
+          </li>
+          <li>
+            <input type="checkbox" id="kitchen-task-4">
+            <label for="kitchen-task-4">Putzen</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="task-category">
+        <h3>Bad:</h3>
+        <ul>
+          <li>
+            <input type="checkbox" id="bathroom-task-1">
+            <label for="bathroom-task-1">Waschbecken und Toilette putzen</label>
+          </li>
+          <li>
+            <input type="checkbox" id="bathroom-task-2">
+            <label for="bathroom-task-2">Müll entsorgen</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="task-category">
+        <h3>Flur:</h3>
+        <ul>
+          <li>
+            <input type="checkbox" id="hallway-task-1">
+            <label for="hallway-task-1">Staubsaugen</label>
+          </li>
+          <li>
+            <input type="checkbox" id="hallway-task-2">
+            <label for="hallway-task-2">Putzen</label>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MWGP by Iosif Gogolos</p>
+    Made with &hearts; on <i class="fa fa-github" style="font-size:24px"></i>
+  </footer>
+
+  <!-- JavaScript einbinden -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
