@@ -14,7 +14,7 @@ body {
 }
 
 header, footer {
-  background-color: var(--primary)
+  background-color: var(--primary);
   color: #fff;
   text-align: center;
   padding: 1rem;
