@@ -2,7 +2,7 @@
   "name": "WG-Putzplan",
   "short_name": "WG-Putzplan",
   "description": "WG-Putzplan Kalenderübersicht für die Reinigungsaufgaben",
-  "start_url": "/",
+  "start_url": "/MWGP/",
   "display": "standalone",
   "background_color": "#F2EFE7",
   "theme_color": "#9ACBD0",
